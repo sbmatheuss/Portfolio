@@ -1,0 +1,19 @@
+:root {
+
+  /* Cores Cards */
+
+  --background-red: #E3646E;
+  --background-purple: #BB72E9;
+  --background-blue: #3996DB;
+  --background-green: #82BC4F;
+  --background-yellow: #EABD5F;
+
+  /* Cores de texto */
+
+  --color-gray: #E2E4E9;
+  --color-gray2: #C0C4CE;
+  --color-gray3: #878EA1;
+  --color-gray4: #292C34;
+  --color-gray5: #16181D;
+  --color-gray6: #0D0E11;
+}

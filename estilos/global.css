@@ -1,0 +1,22 @@
+
+
+
+body {
+  background: url(../imagens/Background_Intro.png) fixed;
+  background-size: cover;
+}
+
+#grid {
+  display: grid;
+  grid-auto-flow: column;
+  
+}
+
+header h1 {
+  color: var(--color-gray2);
+}
+
+p {
+  color: var(--color-gray3);
+}
+
