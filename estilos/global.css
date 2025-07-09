@@ -38,12 +38,25 @@ body,html {
   
 }
 
-header h1 {
+.descricao {
   color: var(--color-gray2);
+  text-align: center;
+  font-size: var(--text-sub);
+  font-family: 'inconsolata';
+}
+
+#profissao {
+  color: var(--color-gray2);
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Asap';
 }
 
 p {
   color: var(--color-gray3);
+  text-align: center;
+  font-size: var(--maven-sm);
+  font-family: 'maven pro';
 }
 
 .menu-item img {

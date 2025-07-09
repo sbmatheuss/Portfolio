@@ -1,5 +1,17 @@
 :root {
 
+
+  /* Tamanho das Fontes */
+
+  --asap-lg: 56px/120%;
+  --asap-md: 24px/120%;
+  --asap-sm: 16px/120%;
+
+  --text-sub: 20px/120%;
+
+  --maven-md: 16px/140%;
+  --maven-sm: 14px/140%;
+
   /* Cores Cards */
 
   --background-red: #E3646E;
