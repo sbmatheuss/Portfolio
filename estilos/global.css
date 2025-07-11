@@ -2,7 +2,7 @@
 
 
 body,html {
-
+  
   margin: 0;
   height: 100%;
   display: grid;
@@ -65,6 +65,10 @@ body,html {
   transition: background 0.2s ease;
   width: max-content;
   
+}
+
+#name {
+  color: var(--background-red);
 }
 
 .descricao {
