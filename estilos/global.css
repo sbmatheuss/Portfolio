@@ -38,7 +38,7 @@ body,html {
 
 .code-icon {
   position: absolute;
-  top: 243px;
+  top: 156px;
   right: 888px;
 }
 
@@ -95,4 +95,13 @@ p {
 .menu-item img {
   width: 20px;
   height: 20px;
+}
+
+.vector {
+  
+    height: 360px;
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
+
 }
