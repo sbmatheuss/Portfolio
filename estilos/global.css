@@ -122,6 +122,34 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.projetos-destaques {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
+  background-color: #1a1a1a; /* fundo escuro para dar contraste */
+}
+
+.card {
+  background-color: var(--color-gray4);
+  border-radius: 8px;
+  padding: 16px;
+  color: white;
+  font-family: sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card p {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #ccc;
+}
 
 
 
