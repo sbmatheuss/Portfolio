@@ -85,9 +85,8 @@ body,html {
 
 #profissao {
   color: var(--color-gray2);
-  text-align: center;
   font-size: 4rem;
-  font-family: 'Asap';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -114,13 +113,13 @@ p {
 .job {
   color: var(--background-red);
   font-size: var(--text-sub);
-  font-family: 'inconsolata';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .pj {
   color: var(--color-gray);
   font-size: var(--asap-md);
-  font-family: 'Asap';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .destaques {
