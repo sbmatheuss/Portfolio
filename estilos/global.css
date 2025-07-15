@@ -128,9 +128,44 @@ p {
 
 .projetos-destaque {
   display: grid;
-  justify-content: center;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   
 }
+
+.card > p {
+  
+  font-size: var(--maven-sm);
+  text-align: left;
+}
+
+.card {
+  padding: 16px;
+  border-radius: 12px;
+  background-color: #2b2b3d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+h3 {
+  margin: 12px 0 8px;
+  font-size: var(--maven-sm);
+  font-family: 'maven pro';
+  
+}
+
+
+
 
 
 
