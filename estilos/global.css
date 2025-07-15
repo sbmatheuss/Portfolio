@@ -135,9 +135,11 @@ p {
 }
 
 .card > p {
-  
+  padding-top: 4px;
+  color: var(--color-gray2);
   font-size: var(--maven-sm);
   text-align: left;
+  
 }
 
 .card {
