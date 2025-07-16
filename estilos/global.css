@@ -1,9 +1,7 @@
 
-body {
-  background-color: #16181D;
-}
 
-main {
+
+.m1 {
   padding-right: 18px;
   margin: -10px;
   width: 100%;
@@ -17,6 +15,13 @@ main {
 
 }
 
+.m2 {
+  background: #16181D;
+  background-position: left;
+  display: grid;
+  padding-right: 16px;
+  margin: -8px;
+}
 
 .perfil {
   width: 150px;
@@ -131,6 +136,7 @@ p {
   place-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  padding-bottom: 144px;
   
 }
 
@@ -167,7 +173,9 @@ h3 {
 }
 
 section {
-  margin: 88px;
+  margin: -8px;;
+  background: var(--color-gray6);
+  display: grid;
 }
 
 .servicos {
@@ -212,9 +220,10 @@ span > p {
 
 .negocio > span {
   border-radius: 6%;
-  border: 2px solid var(--color-gray6);
+  border: 2px solid var(--color-gray5);
   padding-right: 36px;
 }
+
 
 
 
