@@ -166,8 +166,55 @@ h3 {
   
 }
 
+section {
+  margin: 88px;
+}
 
+.servicos {
+  margin: 56px;
+  
+}
 
+#p1 {
+  color: var(--background-red);
+  font-size: var(--text-sub);
+  font-family: 'inconsolata';
+}
+
+#p2 {
+  color: var(--color-gray);
+  font-size: var(--asap-md);
+  font-family: 'Asap';
+}
+
+.negocio {
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+  align-items: center;
+  gap: 40px;
+  
+}
+
+.negocio > span > img {
+  margin: 20px;
+}
+
+.subtitulo {
+  color: var(--color-gray);
+  margin-left: 10px;
+}
+
+span > p {
+  color: var(--color-gray2);
+  margin-left: 10px;
+}
+
+.negocio > span {
+  border-radius: 6%;
+  border: 2px solid var(--color-gray6);
+  padding-right: 36px;
+}
 
 
 
