@@ -176,6 +176,7 @@ section {
   margin: -8px;;
   background: var(--color-gray6);
   display: grid;
+  padding-bottom: 200px;
 }
 
 .servicos {
@@ -222,12 +223,53 @@ span > p {
   border-radius: 6%;
   border: 2px solid var(--color-gray5);
   padding-right: 36px;
+
 }
 
 
 
+footer {
+  display: grid;
+  background: url(../imagens/Background_Intro.png);
+  background-position: left;
+  background-size: cover;
+  margin: -8px;
+  padding: 33px;
+  justify-content: center;
+  text-align: center;
+}
+
+#p4 {
+  color: var(--background-purple);
+  font-size: var(--text-sub);
+  font-family: 'inconsolata';
+}
+
+footer > div > h3 {
+  display: grid;
+  color: var(--color-gray);
+  font-size: var(--asap-md);
+  font-family: 'Asap';
+}
+
+#p6 {
+  color: var(--color-gray2);
+  font-size: var(--asap-md);
+  font-family: 'Asap';
+}
+
+.contato {
+  display: grid;
+  place-items: center;
+  
+}
 
 
+.contato > a {
+  display: grid;
+  padding: 10px;
+  
+}
 
 
 
