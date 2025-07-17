@@ -29,9 +29,8 @@
   border: 2px solid var(--background-red);  /* Cor da borda */
   border-radius: 50%;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  align-content: center;
   padding: 0;
   margin: 40px;
   box-sizing: border-box;
@@ -74,9 +73,6 @@
   padding: 6px 12px;
   background-color: var(--color-gray4);
   border-radius: 999px;
-  
-  cursor: pointer;
-  transition: background 0.2s ease;
   width: max-content;
   
 }
@@ -140,6 +136,8 @@ p {
   
 }
 
+
+
 .card > p {
   padding-top: 4px;
   color: var(--color-gray2);
@@ -157,6 +155,17 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card:active {
+  transform: scale(1.03);
 }
 
 .card img {
@@ -268,7 +277,11 @@ footer > div > h3 {
   display: grid;
   padding: 10px;
   cursor: pointer;
-  transition: background-color 1s ease;
+  transition: background-color 2s ease;
+}
+
+.contato > a:hover {
+  background-color: rgba(174, 174, 182, 0.535);
 }
 
 
