@@ -144,7 +144,7 @@ p {
   color: var(--color-gray2);
   font-size: var(--maven-sm);
   text-align: left;
-  
+  line-height: 1.4;
 }
 
 .card {
