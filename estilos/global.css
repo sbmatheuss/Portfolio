@@ -24,31 +24,29 @@
 }
 
 .perfil {
-  width: 150px;
-  height: 150px;
-  border: 2px solid var(--background-red);  /* Cor da borda */
-  border-radius: 50%;
-  overflow: hidden;
   display: grid;
+  width: 135px;
+  height: 150px;
   align-content: center;
-  padding: 0;
-  margin: 40px;
-  box-sizing: border-box;
-  background-color: none; /* opcional, depende do design */
+  grid-auto-flow: column;
+  margin-top: 55px;
+  margin-bottom: 40px;
+  border: 2px solid var(--background-red);
+  border-radius: 50%;
 }
 
 .foto-perfil {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  display: block;
+  
 }
 
 .code-icon {
-  position: absolute;
-  top: 156px;
-  right: 888px;
-  
+  display: grid;
+  place-content: center;
+  margin-bottom: -120px;
+  margin-left: -20px;
+  width: 0;
 }
 
 .menu {
